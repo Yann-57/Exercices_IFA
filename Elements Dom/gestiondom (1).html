@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="heading d-flex justify-content-between">
+        <h3 class="heading-1">Liste de base</h3>
+        <h3 class="heading-2">Votre liste</h3>
+        <h3 class="heading-3">Actions</h3>
+      </div>
+      <div class="content d-flex">
+        <div class="text-center">
+          <h5 class="list-1">Composants informatique</h5>
+          <hr />
+          <ul class="text-left first-ul">
+            <li class="list-item">Carte mère</li>
+            <li class="list-item">Processeur</li>
+            <li class="list-item">Carte graphique</li>
+            <li class="list-item">Alimentation</li>
+            <li class="list-item">Boitier</li>
+            <li class="list-item">Écran</li>
+            <li class="list-item">Clavier</li>
+            <li class="list-item">Souris</li>
+          </ul>
+        </div>
+        <div>
+          <ul id="list"></ul>
+        </div>
+        <div>
+          <ul class="text-center mt-5 list-unstyled">
+            <li>
+              <h4 class="action-link supprimer">Supprimer</h4>
+            </li>
+            <li>
+              <h4 class="action-link haut">Vers le haut</h4>
+            </li>
+            <li>
+              <h4 class="action-link bas">Vers le bas</h4>
+            </li>
+            <li>
+              <h4 class="action-link premier">En premier</h4>
+            </li>
+            <li>
+              <h4 class="action-link dernier">En dernier</h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

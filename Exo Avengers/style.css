@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+.conteneur{
+    position: relative;
+    width: 80vw;
+    height: 400px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+img:nth-child(1){
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+
+img:nth-child(2){
+    position: absolute;
+    left: 70px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+img:nth-child(3){
+    position: relative;
+    left: 50px;
+    top: 30%;
+}
+
+img:nth-child(4){
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+img:nth-child(5){
+    position: relative;
+
+    
+}
+
+img:nth-child(6){
+    position: relative;
+    left: 350px;
+}
+
+img:nth-child(7){
+    position: relative;
+    top: 70px;
+    left: 80px;
+}

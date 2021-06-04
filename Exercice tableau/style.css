@@ -1,0 +1,38 @@
+.tableau{
+    margin: auto;
+    width: 95vw;
+    max-width: 860px;
+    height: 50vh;
+    max-height: 570px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+thead{
+    background: linear-gradient(black, white);
+}
+
+thead th{
+    text-align: right;
+    color: white;
+    text-transform: uppercase;
+}
+
+th, td{
+    padding: .6rem;
+}
+
+tbody{
+    background-color: #4b7fac;
+}
+
+tbody tr:hover{
+    background-color: #d0d4d8;
+}
+
+tbody td:first-child{
+    font-weight: bold;
+}
+tbody td:last-child{
+    text-align: right;
+}
+
